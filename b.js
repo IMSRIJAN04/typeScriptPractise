@@ -1,0 +1,26 @@
+"use strict";
+exports.__esModule = true;
+var ex = true;
+var total = 0;
+var name = 'Srijan';
+var sentence = "my name is " + name + "\nI am a beginner in TS";
+console.log(sentence);
+var n = null;
+var u = undefined;
+var isNew = null;
+var myName = undefined;
+var list1 = [1, 2, 3];
+var list2 = [1, 2, 3];
+var person1 = ['srijan', 4];
+console.log(list1);
+console.log(list2);
+console.log(person1);
+var color;
+(function (color) {
+    color[color["red"] = 10] = "red";
+    color[color["green"] = 11] = "green";
+    color[color["blue"] = 12] = "blue";
+})(color || (color = {}));
+;
+var c = color.blue;
+console.log(c);
