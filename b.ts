@@ -22,3 +22,4 @@ console.log(person1);
 enum color {red=10,green,blue};
 let c:color=color.blue;
 console.log(c);
+console.log("hello world");
