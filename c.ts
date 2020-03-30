@@ -1,0 +1,13 @@
+ let rv:any=10;
+ rv=true;
+ rv="srijan";
+ console.log(rv);
+ let myVar:unknown=101;
+ console.log(myVar);
+ let mul:number|boolean;
+ mul=20;
+ mul=true;
+mul=98;
+ let max:any;
+ max=4;
+console.log(mul,max);

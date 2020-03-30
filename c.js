@@ -1,0 +1,13 @@
+var rv = 10;
+rv = true;
+rv = "srijan";
+console.log(rv);
+var myVar = 101;
+console.log(myVar);
+var mul;
+mul = 20;
+mul = true;
+mul = 98;
+var max;
+max = 4;
+console.log(mul, max);
